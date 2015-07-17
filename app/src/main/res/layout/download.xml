@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <it.neokree.materialtabs.MaterialTabHost
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:textColor="#FFF"
+        app:primaryColor="?attr/colorPrimary"
+        app:accentColor="?attr/colorPrimary"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabs"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/prev_download"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:text="이전"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            android:background="#2ea7e6"
+            android:drawableLeft="@drawable/ic_chevron_left_white"/>
+
+        <Button
+            android:id="@+id/next_download"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="다음"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            android:background="#2ea7e6"
+            android:drawableRight="@drawable/ic_chevron_right_white"/>
+    </LinearLayout>
+
+</RelativeLayout>

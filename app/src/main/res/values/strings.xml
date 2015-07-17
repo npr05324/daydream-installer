@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DayDream Installer</string>
+
+    <string name="download">Download</string>
+    <string name="use_library">Use Library</string>
+    <string name="app_license">App License</string>
+    <string name="developer_information">Developer Information</string>
+    <string name="app_information">App Information</string>
+    <string name="version">Version</string>
+    <string name="app_version" translatable="false">BETA 4.6</string>
+    <string name="bug">Bug Report</string>
+    <string name="homepage">Homepage</string>
+    <string name="device_information">Device Information</string>
+    <string name="device_check">Device Check</string>
+    <string name="opensource">Open Source Licence</string>
+    <string name="intro_choose">Proceed with caution?</string>
+    <string name="warning">Warning!</string>
+    <string name="check_su">Checking su binary</string>
+    <string name="check_busybox">Checking BusyBox</string>
+    <string name="shutdown">Exit</string>
+    <string name="ok">OK</string>
+    <string name="my_device">My Device</string>
+    <string name="unknown">UnKnown</string>
+    <string name="support">is Support Device.</string>
+    <string name="no_support">is not Support Device.</string>
+    <string name="action_settings">Information</string>
+</resources>

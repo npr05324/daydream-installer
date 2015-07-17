@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:layout="@layout/logo"/>
+
+    <PreferenceCategory
+        android:title="@string/app_information">
+
+        <PreferenceScreen
+            android:title="@string/version"
+            android:summary="@string/app_version"/>
+
+        <PreferenceScreen
+            android:title="@string/bug">
+            <intent
+                android:action="android.intent.action.SENDTO"
+                android:data="mailto:admin@daydream.or.kr"/>
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="@string/opensource">
+            <intent
+                android:targetClass="com.daydream.daydreaminstaller.Opensource"
+                android:targetPackage="com.daydream.daydreaminstaller"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/developer_information">
+
+        <PreferenceScreen
+            android:title="칼리버 / 변재명"
+            android:summary="프로젝트 총괄 - 개발, 기획"/>
+
+        <PreferenceScreen
+            android:title="Cathode / 김현우"
+            android:summary="개발" />
+
+        <PreferenceScreen
+            android:title="Delight / 임채현"
+            android:summary="UI 기획" />
+
+        <PreferenceScreen
+            android:title="stdev / 이율원"
+            android:summary="UI 디자인" />
+
+        <PreferenceScreen
+            android:title="Strontium / 박종흠"
+            android:summary="영어 번역" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="DayDream 정보">
+
+        <Preference
+            android:key="homepage"
+            android:title="@string/homepage"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

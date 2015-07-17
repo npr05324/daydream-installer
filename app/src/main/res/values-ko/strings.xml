@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DayDream 인스톨러</string>
+    <string name="device_information">디바이스 정보</string>
+    <string name="action_settings">정보</string>
+    <string name="device_check">디바이스 확인</string>
+    <string name="opensource">오픈소스 라이센스</string>
+    <string name="check_su">su 바이너리를 확인합니다.</string>
+    <string name="warning">경고!</string>
+    <string name="shutdown">어플 종료</string>
+    <string name="ok">확인</string>
+    <string name="my_device">내 디바이스</string>
+    <string name="unknown">알 수 없음</string>
+    <string name="no_support">은 DayDream을 지원하지 않습니다.</string>
+    <string name="support">은 DayDream을 지원합니다.</string>
+    <string name="check_busybox">BusyBox를 확인합니다.</string>
+    <string name="intro_choose">경고!</string>
+    <string name="bug">버그 리포트</string>
+    <string name="homepage">홈페이지</string>
+    <string name="version">버전</string>
+    <string name="app_information">어플 정보</string>
+    <string name="developer_information">개발자 정보</string>
+    <string name="app_license">어플 라이센스</string>
+    <string name="use_library">사용한 라이브러리</string>
+    <string name="download">다운로드</string>
+</resources>

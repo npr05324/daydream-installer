@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#01579b"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/checkmydevice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linear"
+        android:text="DayDream 지원 여부 확인"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/imageView"
+        android:layout_above="@id/linearLayout">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:contentPadding="5dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="2dp">
+
+            <TextView
+                android:id="@+id/support"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DayDream 지원기기"
+                android:textSize="20dp"
+                android:textColor="?attr/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_gravity="center"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/main_recycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            class="android.support.v7.widget.RecyclerView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/prev_main"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:text="이전"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            android:background="#2ea7e6"
+            android:drawableLeft="@drawable/ic_chevron_left_white"/>
+
+        <Button
+            android:id="@+id/next_main"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="다음"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            android:background="#2ea7e6"
+            android:drawableRight="@drawable/ic_chevron_right_white"/>
+    </LinearLayout>
+
+</RelativeLayout>

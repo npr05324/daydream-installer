@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/use_library">
+
+        <Preference
+            android:key="roottools"
+            android:title="RootTools / Stericson"
+            android:summary="Apache, GPL 2.0 Cross Licence"/>
+
+        <Preference
+            android:key="fresco"
+            android:title="Fresco / Facebook"
+            android:summary="BSD Licence"/>
+
+        <Preference
+            android:key="tint"
+            android:title="SystemBarTint / jgilfelt"
+            android:summary="Apache Licence 2.0" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/app_license">
+
+        <Preference
+            android:key="apache"
+            android:title="Apache Licence 2.0"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
